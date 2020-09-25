@@ -1,4 +1,4 @@
-require_relative '../lib/cart.rb'
+require './lib/cart.rb'
 
 RSpec.describe "TotalCost" do
   cart = Cart.new
